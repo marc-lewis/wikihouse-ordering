@@ -9,7 +9,7 @@ exports.handler = async (event, context) => {
 
     const blockList = []
     response.forEach(item => {
-      blockList.push(item.fields)
+      blockList.push(item.fields.Name)
     })
 
     return {
