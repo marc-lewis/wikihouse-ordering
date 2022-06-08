@@ -1,5 +1,6 @@
 import React from 'react';
 import netlifyIdentity from 'netlify-identity-widget';
+
 export default function Protected() {
   const user = netlifyIdentity.currentUser();
   console.log({ user });
