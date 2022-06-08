@@ -1,6 +1,6 @@
 import React from 'react';
-import Protected from './Protected';
-import Public from './Public';
+import Protected from './pages/Protected';
+import Public from './pages/Public';
 import netlifyIdentity from 'netlify-identity-widget';
 import {
   BrowserRouter as Router,
